@@ -14,6 +14,7 @@ from .TextIngestor import TextIngestor
 
 class PDFIngestor(IngestorInterface):
     """A class parsing quotes from .pdf formats.
+    
     This class extracts quotes and authors and 
     constructs the Quote object.
     """
