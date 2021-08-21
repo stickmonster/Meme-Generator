@@ -25,12 +25,7 @@ class Ingestor(IngestorInterface):
         Input data file checked for type and assigned ingestor.
         """
         for ingestor in cls.ingestors:
-  #          print(path)
-  #          print(ingestor)
             if ingestor.can_ingest(path):
-  #              print("yes")
-  #              print(ingestor)
-  #              print(path)
                 return ingestor.parse(path)
 
 
