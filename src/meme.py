@@ -62,6 +62,6 @@ if __name__ == "__main__":
 
     if args.path:
         cli_path = []
-        cli.path.append(args.path)
+        cli_path.append(args.path)
 
     print(generate_meme(args.path, args.body, args.author))
