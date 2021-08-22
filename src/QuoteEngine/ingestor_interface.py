@@ -9,7 +9,7 @@ from abc import ABC, abstractmethod
 from typing import List
 from .QuoteModel import QuoteModel
 
-class IngestorInterface:
+class IngestorInterface(ABC):
     """An abstract Interface class of the strategy object ingesting file types.
     
     This interface structures the approach of downstream ingestors.
