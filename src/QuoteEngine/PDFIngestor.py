@@ -4,6 +4,7 @@ This is a concrete implementation of the ingestor_interface class.
 from typing import List
 import subprocess
 import random
+import os
 
 from .ingestor_interface import IngestorInterface
 from .QuoteModel import QuoteModel
@@ -39,7 +40,7 @@ class PDFIngestor(IngestorInterface):
 
         for line in file_ref.readlines():
             line = line.strip('\n\r').strip()
-            if len()>0:
+            if len(line)>0:
                 parsed = line.split(' - ')
                 new_quote = QuoteModel(parsed[0], parsed [1])
                 quotes.append(new_quote)
