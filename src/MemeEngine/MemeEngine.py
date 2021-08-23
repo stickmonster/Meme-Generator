@@ -28,7 +28,7 @@ class MemeEngine:
         draw = ImageDraw.Draw(img)
         font = ImageFont.truetype('./fonts/arial.ttf')
         author = 'by' + f'{author}'
-        draw.text((10, 55), author, font = font, fill = 'blue')
+        draw.text((10, 55), body + " " + author, font = font, fill = 'blue')
 
         img_out_path = os.path.join(self.out_dir, f'meme_{random.randint(0, 1000000)}.png')
 
