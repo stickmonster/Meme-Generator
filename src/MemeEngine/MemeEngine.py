@@ -32,6 +32,6 @@ class MemeEngine:
 
         img_out_path = os.path.join(self.out_dir, f'meme_{random.randint(0, 1000000)}.png')
 
-        img.save = img_out_path
+        img.save(img_out_path)
 
         return img_out_path
