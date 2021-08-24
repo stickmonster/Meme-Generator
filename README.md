@@ -16,3 +16,9 @@ python app.py
 Thanks for taking the time to read this, any feedback greatly appreciated.
 
 Toby
+
+ps, I have seen this code-base working on a Linux system, but have had a real issue with paths on my home Windows computer (using Visual Studio Community 2019). The issue for this is the subprocess command, which is seeking the XPDFReader, from the PDFImporter file. It is unable to find it, giving a 'FileNotFoundError: [WinError2]' message. I have set the environment path under the Control Panel to the folder in which the downloaded PDF reader is saved and even added the same reader to the paths used to run the installed Python files. It still isn't being picked up. Any help with this would be greatly appreciated.
+
+Thanks,
+
+Toby
