@@ -23,9 +23,10 @@ Thanks,
 
 Toby
 
-Update
+Update - 
+
+After further research, I have downloaded the Windows Command Line tool from XPDFReader and placed it on the path, and the app is now working.
 
 ![](Meme-generator%20images/working.app.py)
-![](Meme-generator%20images/working%20app.py%202)
-![](Meme-generator%20images/working%20app.py%203)
+
 
