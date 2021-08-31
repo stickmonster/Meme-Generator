@@ -29,4 +29,6 @@ After further research, I have downloaded the Windows Command Line tool from XPD
 
 ![](Meme-generator%20images/working.app.py)
 
+... although there are some formatting issues that will require further thought...
+
 
