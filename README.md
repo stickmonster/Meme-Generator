@@ -13,6 +13,8 @@ The entry point for the code is to run the command:
 
 python app.py
 
+The running application is viewable on Flask's internal server at http://127.0.0.1:5000/
+
 Thanks for taking the time to read this, any feedback greatly appreciated.
 
 Toby
