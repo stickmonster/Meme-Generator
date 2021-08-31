@@ -22,3 +22,10 @@ ps, I have seen this code-base working on a Linux system, but have had a real is
 Thanks,
 
 Toby
+
+Update
+
+![](Meme-generator%20images/working.app.py)
+![](Meme-generator%20images/working%20app.py%202)
+![](Meme-generator%20images/working%20app.py%203)
+
