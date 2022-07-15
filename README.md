@@ -1,4 +1,6 @@
 # Meme-Generator
+Python server and website using Flask adn Handlebars templating.
+
 Udacity sourced project as part of a nano-degree in Intermediate Python, utilising a Python backend with Bootstrap templating the HTML.
 
 As part of the Udacity nano-degree in Python, I have created a web-based application that both creates random canine-based motivational memes, and allows the user to develop their own.
