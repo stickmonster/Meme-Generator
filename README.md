@@ -1,5 +1,5 @@
 # Meme-Generator
-Python server and website using Flask adn Handlebars templating.
+Python server and website using Flask and Handlebars templating.
 
 Udacity sourced project as part of a nano-degree in Intermediate Python, utilising a Python backend with Bootstrap templating the HTML.
 
